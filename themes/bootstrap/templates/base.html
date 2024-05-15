@@ -19,12 +19,12 @@
     {% block scripts %}
     {% endblock scripts %}
   </head>
-  <body>
+  <body class='bg-dark'>
     {% block header %}
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
           <div class="container">
-            <a class="navbar-brand" href="index.html">Marina Cavallo Art</a>
+            <a class="navbar-brand" href="index.html"><img src='{{ SITEURL }}/{{ THEME_STATIC_DIR }}/logo.png' class='h-25'></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -53,7 +53,7 @@
     {% endblock content %}
 
     {% block footer %}
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top container ">
         <ul class="nav col-md-4 justify-content-start">
         {% for p in pages %}
           <li class="nav-item"><a href='{{p.url}}' class="nav-link {% if page==p %}active{% endif %}text-body-secondary">{{p.title}}</a></li>

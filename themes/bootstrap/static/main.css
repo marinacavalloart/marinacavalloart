@@ -3,3 +3,9 @@
 p {
     margin-bottom: 2rem;
 }
+
+.bg {
+    background-image: url("background.jpg");
+    min-height: 600px;
+    background-size: cover;
+}
