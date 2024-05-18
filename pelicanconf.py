@@ -69,6 +69,9 @@ TYPOGRIFY_DASHES = 'default'
 
 DIRECT_TEMPLATES = [
     'index',
+    'about',
+    'gallery',
+    'contact',
 ]
 
 TEMPLATE_PAGES = {
