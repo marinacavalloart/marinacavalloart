@@ -8,6 +8,11 @@
           Marina Cavallo Art
         </h1>
       </section>
+      <section>
+        {% for article in articles %}
+          <a href='{{article.url}}'>{{article.title}}</a>
+        {% endfor %}
+      </section>
     </main>
   </div>
 {% endblock content %}

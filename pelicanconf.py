@@ -31,6 +31,7 @@ MARKDOWN = {
 DEFAULT_DATE = 'fs'
 
 STATIC_PATHS = [
+    'images',
 ]
 
 PAGE_EXCLUDES = STATIC_PATHS
@@ -43,6 +44,10 @@ DEFAULT_PAGINATION = False
 
 PLUGINS = [
     'plugins.bootstrapify',
+]
+
+ARTICLE_PATHS = [
+    'articles',
 ]
 
 PAGE_URL = '{slug}.html'
