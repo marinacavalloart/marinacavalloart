@@ -4,11 +4,21 @@
 
 {% block content %}
   <main class='container'>
-    <article class='my-5 col-lg-6'>
-      <header>
-        <h2>{{ article.title }}</h2>
-      </header>
-      {{ article.content }}
-    </article>
+    <section class='row'>
+      <div class='col-sm-6'>
+        <img src='{{article.image}}' class='img-fluid'>
+      </div>
+      <div class='col-sm-6'>
+        <h4>
+          {{article.title}}
+        </h4>
+        <p>
+          {{article.materials}}
+        </p>
+        <a href='mailto:marina@marinacavalloart.com?subject={{article.title}}' class='btn btn-lg btn-outline-warning'>
+          I'm Interested in {{article.title}}
+        </a>
+      </div>
+    </section>
   </main>
 {% endblock %}
