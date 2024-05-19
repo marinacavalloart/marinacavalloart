@@ -4,14 +4,20 @@
   <div class='bg'>
     <main class='container'>
       <section>
-        <h1 class='bellefair-regular'>
-          Marina Cavallo Art
-        </h1>
-      </section>
-      <section>
-        {% for article in articles %}
-          <a href='{{article.url}}'>{{article.title}}</a>
-        {% endfor %}
+        <div class='row'>
+          <div class='col-6  d-flex align-items-center'>
+            <h1 class='bellefair-regular'>
+              Marina Cavallo Art
+            </h1>
+          </div>
+          <div class='col-6'>
+            <div class="embed-responsive h-50">
+              <video class="embed-responsive-item" muted="" autoplay="" loop="" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/intro_video.mp4" poster="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/intro_video.png" type="video/mp4">
+                {# <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/intro_video.png" > #}
+              </video>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </div>
