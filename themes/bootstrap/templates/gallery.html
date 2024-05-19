@@ -4,14 +4,40 @@
 
 {% block content %}
   <main class='container'>
-    <article class='my-5 col-lg-6'>
-      <header>
-        <h2>Gallery</h2>
-      </header>
+    <article class='my-5'>
+      <div class='page-header my-5 bg-warning-subtle'>
+        <h2 class='text-center p-5'>
+          GALLERY
+        </h2>
+      </div>
+      <div class='large-list text-center'>
+        <ul class='list-unstyled'>
+          <li class='list-item'>
+            Every painting is one-of-a-kind, original piece of art.
+          </li>
+          <li class='list-item'>
+            Fully customizable to fit your vision.
+          </li>
+          <li class='list-item'>
+            <a href='contact.html'>CONTACT</a> us to discuss all the details.
+          </li>
+        </ul>
+      </div>
       <section>
-        {% for article in articles %}
-          <a href='{{article.url}}'>{{article.title}}</a>
-        {% endfor %}
+        <div class='row'>
+          {% for article in articles %}
+              <div class='col-sm-6'>
+                <div class='card my-5'>
+                  <img class="card-img-top" src="{{article.image}}">
+                  <div class='card-body'>
+                    <h5 class='card-title'>
+                      <a href='{{article.url}}' class='stretched-link black-text'>{{article.title}}</a>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+          {% endfor %}
+        </div>
       </section>
     </article>
   </main>

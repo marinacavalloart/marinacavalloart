@@ -40,3 +40,8 @@ h2 {
 li {
     font-family: "Josefin Sans";
 }
+
+.large-list {
+    font-size: 30px;
+    font-family: "Bellefair", serif;
+}
