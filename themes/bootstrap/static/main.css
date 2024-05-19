@@ -27,6 +27,16 @@ h1 {
     font-size: 70px;
 }
 
+h2 {
+  font-family: "Bellefair", serif;
+  color: rgb(0,0,0);
+
+}
+.black-text {
+  color: rgb(0,0,0);
+
+}
+
 li {
     font-family: "Josefin Sans";
 }

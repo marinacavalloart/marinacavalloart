@@ -1,9 +1,7 @@
-import os
-
 # Core
 AUTHOR = 'Marina Cavallaro'
 SITENAME = 'Marina Cavallo Art'
-SITEURL = os.environ['SITEURL']
+SITEURL = "http://localhost:8000"
 PATH = "content"
 TIMEZONE = 'America/Boise'
 DEFAULT_LANG = 'en'
