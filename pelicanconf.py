@@ -2,6 +2,7 @@
 AUTHOR = 'Marina Cavallaro'
 SITENAME = 'Marina Cavallo Art'
 SITEURL = "http://localhost:8000"
+RELATIVE_URLS = False
 PATH = "content"
 TIMEZONE = 'America/Boise'
 DEFAULT_LANG = 'en'
