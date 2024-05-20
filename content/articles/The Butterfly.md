@@ -1,0 +1,8 @@
+Title: The Butterfly
+Date: 2024-05-15
+Image: images/the_butterfly.jpg
+Category: Mirror Painting
+Tags: Wood art board
+Author: Marina Cavallo
+Status: published
+Summary: Acrylic, modeling paste, mirror, gold leaf, epoxy resin, crushed crystal glass, crushed mirror glass, Unframed. 
