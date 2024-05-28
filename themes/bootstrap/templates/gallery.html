@@ -23,7 +23,7 @@
           </li>
         </ul>
       </div>
-      <section>
+      <section id='gallery'>
         <div class='row' data-masonry='{"percentPosition": true }'>
             {% for article in articles %}
                 <div class='col-sm-4'>
@@ -39,3 +39,14 @@
     </article>
   </main>
 {% endblock %}
+
+{% block endscripts %}
+    <script>
+    $('#gallery').imagesLoaded( function() {
+      $('.row').masonry({
+        itemSelector: '.card',
+        percentPosition: true
+      })
+    });
+    </script>
+{% endblock endscripts %}

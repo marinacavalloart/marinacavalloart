@@ -17,9 +17,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
-      <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/main.js"></script>
     {% block styles %}
     {% endblock styles %}
     {% block scripts %}
@@ -77,5 +74,13 @@
         <p class="text-center text-muted">&copy; 2024 Marina Cavallo Art LLC</p>
       </footer>
     {% endblock footer %}
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/main.js"></script>
+
+    {% block endscripts %}
+    {% endblock endscripts %}
   </body>
 </html>
