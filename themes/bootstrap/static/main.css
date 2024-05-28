@@ -49,3 +49,7 @@ li {
 .gold-back {
     background-color: rgb(166,151,91);
 }
+
+.logo-spec {
+    max-height: 100px;
+}
