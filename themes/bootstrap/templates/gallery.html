@@ -24,19 +24,16 @@
         </ul>
       </div>
       <section>
-        <div class='row'>
-          {% for article in articles %}
-              <div class='col-sm-6'>
-                <div class='card my-5'>
-                  <img class="card-img-top" src="{{article.image}}">
-                  <div class='card-body'>
-                    <h5 class='card-title'>
-                      <a href='{{article.url}}' class='stretched-link black-text'>{{article.title}}</a>
-                    </h5>
-                  </div>
+        <div class='row' data-masonry='{"percentPosition": true }'>
+            {% for article in articles %}
+                <div class='col-sm-4'>
+                    <div class='card my-2'>
+                        <a href='{{article.url}}'>
+                            <img class="card-img-top" src="{{article.image}}">
+                        </a>
+                    </div>
                 </div>
-              </div>
-          {% endfor %}
+            {% endfor %}
         </div>
       </section>
     </article>
