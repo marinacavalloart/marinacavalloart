@@ -53,3 +53,7 @@ li {
 .logo-spec {
     max-height: 100px;
 }
+
+.btn-outline-warning:hover, .btn-outline-warning:active, .btn-outline-warning:visited {
+    background-color: rgb(166,151,91) !important;
+}
