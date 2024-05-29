@@ -2,13 +2,31 @@
 
 {% block title %}{{ article.title|striptags }}{%endblock%}
 
+{% block styles %}
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+{% endblock styles %}
+
+
 {% block content %}
   <main class='container'>
     <section class='row'>
       <div class='col-sm-6'>
-        <img src='{{article.image}}' class='img-fluid'>
+        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+          <div class="carousel-cell">
+            <div class='card my-2'>
+              <img class="card-img-top" src="{{article.image}}">
+            </div>
+          </div>
+          {#
+          <div class="carousel-cell">
+            <div class='card'>
+              <img class="card-img-top" src="{{article.image}}">
+            </div>
+          </div>
+          #}
+        </div>
       </div>
-      <div class='col-sm-6'>
+      <div class='col-sm-6 my-2'>
         <h4>
           {{article.title}}
         </h4>
@@ -28,3 +46,7 @@
     </section>
   </main>
 {% endblock %}
+
+{% block endscripts %}
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+{% endblock endscripts %}
