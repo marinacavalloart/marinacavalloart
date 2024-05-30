@@ -17,13 +17,20 @@
               <img class="card-img-top" src="{{article.image}}">
             </div>
           </div>
-          {#
+          {% if article.image2 %}
           <div class="carousel-cell">
-            <div class='card'>
-              <img class="card-img-top" src="{{article.image}}">
+            <div class='card my-2'>
+              <img class="card-img-top" src="{{article.image2}}">
             </div>
           </div>
-          #}
+          {% endif %}
+          {% if article.image3 %}
+          <div class="carousel-cell">
+            <div class='card my-2'>
+              <img class="card-img-top" src="{{article.image3}}">
+            </div>
+          </div>
+          {% endif %}
         </div>
       </div>
       <div class='col-sm-6 my-2'>

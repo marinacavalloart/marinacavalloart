@@ -1,6 +1,6 @@
 Title: Chanel No 5
 Date: 2024-05-12
-Image: images/chanel_no_5.jpg
+Image: images/chanel.jpg
 Category: Mirror Painting
 Tags: Art board
 Author: Marina Cavallo

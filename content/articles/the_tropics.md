@@ -1,6 +1,7 @@
 Title: The Tropics
 Date: 2024-05-16
 Image: images/the_tropics.jpg
+Image_2: images/the_tropics_2.jpg
 Category: Mirror Painting
 Tags: Wood art board
 Author: Marina Cavallo

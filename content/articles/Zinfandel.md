@@ -1,6 +1,7 @@
 Title: Zinfandel
 Date: 2024-05-03
 Image: images/zinfandel.jpg
+Image2: images/zinfandel_2.jpg
 Category: Mirror Painting
 Tags: Wood art board
 Author: Marina Cavallo

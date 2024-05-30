@@ -1,6 +1,7 @@
 Title: Royal Flamingo
 Date: 2024-05-05
 Image: images/royal_flamingo.jpg
+Image2: images/royal_flaming_2.jpg
 Category: Mirror Painting
 Tags: Art board
 Author: Marina Cavallo

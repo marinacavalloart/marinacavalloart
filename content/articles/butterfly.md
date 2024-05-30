@@ -1,6 +1,7 @@
-Title: The Butterfly
+Title: Butterfly
 Date: 2024-05-15
-Image: images/the_butterfly.jpg
+Image: images/butterfly.jpg
+Image2: images/butterfly_2.jpg
 Category: Mirror Painting
 Tags: Wood art board
 Author: Marina Cavallo
