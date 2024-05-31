@@ -1,6 +1,7 @@
 Title: Cherry Lady
 Date: 2024-05-10
 Image: images/cherry_lady.jpg
+Image2: images/cherry_lady_2.jpg
 Category: Mirror Painting
 Tags: Art board
 Author: Marina Cavallo

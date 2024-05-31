@@ -1,6 +1,7 @@
 Title: Reindeer
 Date: 2024-05-08
 Image: images/reindeer.jpg
+Image2: images/reindeer_2.jpg
 Category: Mirror Painting
 Tags: Art board
 Author: Marina Cavallo

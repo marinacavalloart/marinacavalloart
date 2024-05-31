@@ -2,6 +2,7 @@ Title: Magnolias
 Date: 2024-05-19
 Image: images/magnolias.jpg
 Image2: images/magnolias_2.jpg
+Image3: images/magnolias_3.jpg
 Category: Mirror Painting
 Tags: Wood art board
 Author: Marina Cavallo
