@@ -11,7 +11,7 @@
   <main class='container'>
     <section class='row'>
       <div class='col-sm-6'>
-        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+        <div class="main-carousel">
           <div class="carousel-cell">
             <div class='card my-2'>
               <img class="card-img-top" src="{{article.image}}">
@@ -56,4 +56,14 @@
 
 {% block endscripts %}
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script>
+    $('#gallery').imagesLoaded( function() {
+
+        $('.main-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        contain: true
+      })
+    });
+  </script>
 {% endblock endscripts %}
