@@ -6,4 +6,4 @@ Category: Mirror Painting
 Tags: Art boardround
 Author: Marina Cavallo
 Status: published
-Summary: Acrylic, mirror, epoxy resin, crushed crystal glass, crushed mirror glass. Unframed, with a stand. 
+Summary: Acrylic, mirror, epoxy resin, crushed crystal glass, crushed mirror glass. unframed, with a stand.

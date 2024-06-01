@@ -7,4 +7,4 @@ Category: Mirror Painting
 Tags: Art board
 Author: Marina Cavallo
 Status: published
-Summary: Acrylic, mirror, epoxy resin, crushed crystal glass, Unframed.
+Summary: Acrylic, mirror, epoxy resin, crushed crystal glass, unframed.
