@@ -54,6 +54,16 @@ li {
     max-height: 100px;
 }
 
-.btn-outline-warning:hover, .btn-outline-warning:active, .btn-outline-warning:visited {
+.btn-outline-warning {
+    color: rgb(166,151,91) !important;
+}
+
+.btn-outline-warning:active, .btn-outline-warning:visited {
     background-color: rgb(166,151,91) !important;
+    color: rgb(166,151,91) !important;
+}
+
+.btn-outline-warning:hover {
+    background-color: rgb(166,151,91) !important;
+    color: rgb(255,255,255) !important;
 }
