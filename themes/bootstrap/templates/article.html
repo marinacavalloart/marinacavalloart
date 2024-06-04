@@ -57,13 +57,10 @@
 {% block endscripts %}
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script>
-    $('#gallery').imagesLoaded( function() {
-
-        $('.main-carousel').flickity({
-        // options
-        cellAlign: 'left',
-        contain: true
-      })
+    $('.main-carousel').flickity({
+      // options
+      cellAlign: 'left',
+      contain: true
     });
   </script>
 {% endblock endscripts %}
