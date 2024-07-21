@@ -7,4 +7,4 @@ Category: Mirror Painting
 Tags: Wood art board
 Author: Marina Cavallo
 Status: published
-Summary: Acrylic, modeling paste, mirror, gold leaf, epoxy resin, crushed crystal glass, unframed.
+Summary: Acrylic, modeling paste, mirror, silver leaf, epoxy resin, crushed crystal glass, unframed.
